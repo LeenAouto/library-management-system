@@ -1,0 +1,73 @@
+2023-07-16 12:21:01.450 +03:00 [INF] Starting the app
+2023-07-16 12:21:02.277 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.283 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.283 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.283 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.283 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.283 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.283 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.283 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.284 +03:00 [INF] Errorrr
+2023-07-16 12:21:02.284 +03:00 [INF] Errorrr
+2023-07-16 12:21:46.660 +03:00 [INF] Starting the app
+2023-07-16 12:21:47.475 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.479 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:21:47.480 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.054 +03:00 [INF] Starting the app
+2023-07-16 12:23:30.439 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:23:30.446 +03:00 [INF] Errorrr
+2023-07-16 12:54:20.751 +03:00 [INF] Starting the app
+2023-07-16 14:22:01.524 +03:00 [INF] Starting the app
+2023-07-16 14:23:06.299 +03:00 [INF] Starting the app
+2023-07-16 14:23:45.257 +03:00 [INF] Starting the app
+2023-07-16 14:35:53.869 +03:00 [INF] Starting the app
+2023-07-16 14:47:29.919 +03:00 [INF] Starting the app
+2023-07-16 14:52:26.501 +03:00 [INF] Starting the app
+2023-07-16 14:52:43.081 +03:00 [INF] Starting the app
+2023-07-16 14:52:49.666 +03:00 [INF] Starting the app
+2023-07-16 14:55:04.346 +03:00 [INF] Starting the app
+2023-07-16 15:11:39.136 +03:00 [INF] Starting the app
+2023-07-16 15:27:17.767 +03:00 [INF] Starting the app
+2023-07-16 15:28:01.684 +03:00 [INF] Starting the app
+2023-07-16 15:29:03.034 +03:00 [ERR]    at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Library.DAL.EF.UserManager.Add(User user) in D:\Program Files\source\repos\LibraryConsole\Library.DAL.EF\UserManager.cs:line 55
+   at Library.ConsoleUI.App.SignUp() in D:\Program Files\source\repos\LibraryConsole\LibraryConsole\App.cs:line 524
+2023-07-16 15:30:30.391 +03:00 [INF] Starting the app
+2023-07-16 15:30:46.019 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2023-07-16 15:32:02.184 +03:00 [INF] Starting the app
+2023-07-16 15:32:16.323 +03:00 [INF] Starting the app
+2023-07-16 15:32:34.729 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2023-07-16 15:33:23.281 +03:00 [INF] Starting the app
+2023-07-16 15:33:42.334 +03:00 [ERR]    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+2023-07-16 16:07:48.463 +03:00 [INF] Starting the app
+2023-07-16 16:08:05.992 +03:00 [INF] Starting the app

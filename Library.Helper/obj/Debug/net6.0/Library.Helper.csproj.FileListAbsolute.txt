@@ -1,0 +1,12 @@
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\bin\Debug\net6.0\Library.Helper.deps.json
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\bin\Debug\net6.0\Library.Helper.dll
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\bin\Debug\net6.0\Library.Helper.pdb
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\Library.Helper.csproj.AssemblyReference.cache
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\Library.Helper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\Library.Helper.AssemblyInfoInputs.cache
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\Library.Helper.AssemblyInfo.cs
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\Library.Helper.csproj.CoreCompileInputs.cache
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\Library.Helper.dll
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\refint\Library.Helper.dll
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\Library.Helper.pdb
+D:\Program Files\source\repos\LibraryConsole\Library.Helper\obj\Debug\net6.0\ref\Library.Helper.dll

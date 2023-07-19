@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6TzBHS5rW1zmiMaQEqItorEkO2GwKDlrk5i58WW9RrErnlF38ExmDZUXZqQcxdASzZrIKqIXn/1wowcU5t2nww==",
+  "success": true,
+  "projectFilePath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Helper\\Library.Helper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leen_\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
