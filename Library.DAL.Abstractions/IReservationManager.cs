@@ -9,7 +9,7 @@ namespace Library.DAL.Abstractions
 {
     public interface IReservationManager
     {
-        Reservation Get(int id);
+        Reservation Get(int? id);
         List<Reservation> GetList();
         Reservation Add(Reservation reservation);
         Reservation Update(Reservation reservation);

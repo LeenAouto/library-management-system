@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Entities", "Library
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Helper", "Library.Helper\Library.Helper.csproj", "{EEC67BEE-6E08-49BA-896B-3D7343D96785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryMVC", "LibraryMVC\LibraryMVC.csproj", "{51C75AD2-DB7A-4495-A6C5-23E009B6AEFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryMVC", "LibraryMVC\LibraryMVC.csproj", "{51C75AD2-DB7A-4495-A6C5-23E009B6AEFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{9DD87BCA-A1C1-4345-8527-EB0A30B6E0E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{51C75AD2-DB7A-4495-A6C5-23E009B6AEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C75AD2-DB7A-4495-A6C5-23E009B6AEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51C75AD2-DB7A-4495-A6C5-23E009B6AEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD87BCA-A1C1-4345-8527-EB0A30B6E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD87BCA-A1C1-4345-8527-EB0A30B6E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD87BCA-A1C1-4345-8527-EB0A30B6E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD87BCA-A1C1-4345-8527-EB0A30B6E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

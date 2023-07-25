@@ -964,11 +964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj",
+      "projectUniqueName": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj",
       "projectName": "Library.Entities",
-      "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj",
+      "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj",
       "packagesPath": "C:\\Users\\leen_\\.nuget\\packages\\",
-      "outputPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\obj\\",
+      "outputPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leen_\\AppData\\Roaming\\NuGet\\NuGet.Config",

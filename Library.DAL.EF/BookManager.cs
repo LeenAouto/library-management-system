@@ -7,7 +7,7 @@ namespace Library.DAL.EF
     {
         private LibraryDbContext _context = new LibraryDbContext();
 
-        public Book Get(int id)
+        public Book Get(int? id)
         {
             var book = _context.Books.Where(x => x.Id == id).FirstOrDefault();
             return book;

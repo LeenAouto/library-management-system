@@ -12,3 +12,17 @@ D:\Program Files\source\repos\LibraryConsole\Library.Entities\obj\Debug\net6.0\L
 D:\Program Files\source\repos\LibraryConsole\Library.Entities\obj\Debug\net6.0\ref\Library.Entities.dll
 D:\Program Files\source\repos\LibraryConsole\Library.Entities\bin\Debug\net6.0\Library.Entities.runtimeconfig.json
 D:\Program Files\source\repos\LibraryConsole\Library.Entities\obj\Debug\net6.0\Library.Entities.genruntimeconfig.cache
+D:\Program Files\source\repos\library-management-system\Library.Entities\bin\Debug\net6.0\Library.Entities.deps.json
+D:\Program Files\source\repos\library-management-system\Library.Entities\bin\Debug\net6.0\Library.Entities.runtimeconfig.json
+D:\Program Files\source\repos\library-management-system\Library.Entities\bin\Debug\net6.0\Library.Entities.dll
+D:\Program Files\source\repos\library-management-system\Library.Entities\bin\Debug\net6.0\Library.Entities.pdb
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.csproj.AssemblyReference.cache
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.AssemblyInfoInputs.cache
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.AssemblyInfo.cs
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.csproj.CoreCompileInputs.cache
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.dll
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\refint\Library.Entities.dll
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.pdb
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\Library.Entities.genruntimeconfig.cache
+D:\Program Files\source\repos\library-management-system\Library.Entities\obj\Debug\net6.0\ref\Library.Entities.dll

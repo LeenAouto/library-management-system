@@ -9,7 +9,7 @@ namespace Library.DAL.Abstractions
 {
     public interface IBookManager
     {
-        Book Get(int id);
+        Book Get(int? id);
         List<Book> GetList();
         Book Add(Book book);
         Book Update(Book book);

@@ -8,8 +8,8 @@
         public string Username { get; set; }
         public DateTime StartDate { get; set; }
         public bool IsReturned { get; set; }
-        public User User { get; set; }
-        public Book Book { get; set; }
+        public User? User { get; set; }
+        public Book? Book { get; set; }
 
     }
 }

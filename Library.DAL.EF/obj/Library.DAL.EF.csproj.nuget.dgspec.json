@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.EF\\Library.DAL.EF.csproj": {}
+    "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.EF\\Library.DAL.EF.csproj": {}
   },
   "projects": {
-    "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj": {
+    "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj",
+        "projectUniqueName": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj",
         "projectName": "Library.DAL.Abstractions",
-        "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj",
+        "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj",
         "packagesPath": "C:\\Users\\leen_\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.Abstractions\\obj\\",
+        "outputPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leen_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj": {
-                "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj"
+              "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj": {
+                "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.EF\\Library.DAL.EF.csproj": {
+    "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.EF\\Library.DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.EF\\Library.DAL.EF.csproj",
+        "projectUniqueName": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.EF\\Library.DAL.EF.csproj",
         "projectName": "Library.DAL.EF",
-        "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.EF\\Library.DAL.EF.csproj",
+        "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.EF\\Library.DAL.EF.csproj",
         "packagesPath": "C:\\Users\\leen_\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.EF\\obj\\",
+        "outputPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leen_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,11 +95,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj": {
-                "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj"
+              "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj": {
+                "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.Abstractions\\Library.DAL.Abstractions.csproj"
               },
-              "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj": {
-                "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj"
+              "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj": {
+                "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj": {
+    "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj",
+        "projectUniqueName": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj",
         "projectName": "Library.Entities",
-        "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj",
+        "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj",
         "packagesPath": "C:\\Users\\leen_\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\obj\\",
+        "outputPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leen_\\AppData\\Roaming\\NuGet\\NuGet.Config",

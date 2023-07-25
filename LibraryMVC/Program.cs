@@ -1,3 +1,5 @@
+using Library.DAL.Abstractions;
+using Library.DAL.EF;
 using LibraryMVC.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +16,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IBookManager, BookManager>();
+builder.Services.AddScoped<IReservationManager, ReservationManager>();
 
 var app = builder.Build();
 

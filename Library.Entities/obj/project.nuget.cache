@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EU8FMjXripHVs0Z3tMriLqGXif/svRyQqIPz3b9xu5/SrusNx6dyFXW+umaf6TJw6Fb8neg3l3pUqOwi2TSafA==",
+  "dgSpecHash": "v8I+PqTqClBx4IVPR1JIB3+RpP4yyE4kQUhAi8nRH71TzqvpUYfoK7KqVp5olmgbou6lKKR5kbE/evFQIny2Xw==",
   "success": true,
-  "projectFilePath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Entities\\Library.Entities.csproj",
+  "projectFilePath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Entities\\Library.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leen_\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\leen_\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",

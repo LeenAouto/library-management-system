@@ -7,32 +7,14 @@ namespace Library.DAL.EF
     {
         private LibraryDbContext _context = new LibraryDbContext();
 
-        public Reservation Get(int id)
+        public Reservation Get(int? id)
         {
             var reservation = _context.Reservations.Where(x => x.Id == id).FirstOrDefault();
             return reservation;
         }
         public List<Reservation> GetList()
         {
-            List<Reservation> reservations = new List<Reservation>();
-            List<Reservation> allReservations = _context.Reservations.ToList();
-            if (allReservations.Any())
-            {
-                foreach (Reservation reservation in allReservations)
-                {
-                    reservations.Add(new Reservation()
-                    {
-                        Id = reservation.Id,
-                        BookId = reservation.BookId,
-                        UserId = reservation.UserId,
-                        Username = reservation.Username,
-                        StartDate = reservation.StartDate,
-                        IsReturned = reservation.IsReturned,
-
-                    });
-                }
-            }
-
+            List<Reservation> reservations = _context.Reservations.ToList();
             if (!(reservations.Any()))
             {
                 return null;

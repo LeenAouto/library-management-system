@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Helper\\Library.Helper.csproj": {}
+    "D:\\Program Files\\source\\repos\\library-management-system\\Library.Helper\\Library.Helper.csproj": {}
   },
   "projects": {
-    "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Helper\\Library.Helper.csproj": {
+    "D:\\Program Files\\source\\repos\\library-management-system\\Library.Helper\\Library.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Helper\\Library.Helper.csproj",
+        "projectUniqueName": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Helper\\Library.Helper.csproj",
         "projectName": "Library.Helper",
-        "projectPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Helper\\Library.Helper.csproj",
+        "projectPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Helper\\Library.Helper.csproj",
         "packagesPath": "C:\\Users\\leen_\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.Helper\\obj\\",
+        "outputPath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.Helper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leen_\\AppData\\Roaming\\NuGet\\NuGet.Config",

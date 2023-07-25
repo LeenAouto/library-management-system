@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kns4pu8vESBx4YrC+OiMrSNLzWZbGGnTNOhpFmAZSCn1BkWk3FlK4ySqBytZ5eeGc/cAXK7ljbp6KZyuemQs4Q==",
+  "dgSpecHash": "PyWd9shF5crHA/pmBwWa4Wo491wu8fLt8p7yP+vPalyAOGfGFro0y065AzZlX5eT7dQD/4sP8AYgNjD3GG36+w==",
   "success": true,
-  "projectFilePath": "D:\\Program Files\\source\\repos\\LibraryConsole\\Library.DAL.EF\\Library.DAL.EF.csproj",
+  "projectFilePath": "D:\\Program Files\\source\\repos\\library-management-system\\Library.DAL.EF\\Library.DAL.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leen_\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\leen_\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

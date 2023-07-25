@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.DAL.Abstractions\Library.DAL.Abstractions.csproj" />
+    <ProjectReference Include="..\Library.DAL.EF\Library.DAL.EF.csproj" />
+    <ProjectReference Include="..\Library.Entities\Library.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

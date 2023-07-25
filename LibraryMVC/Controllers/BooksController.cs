@@ -8,36 +8,40 @@ using Microsoft.EntityFrameworkCore;
 using LibraryMVC.Data;
 using LibraryMVC.Models;
 using Microsoft.AspNetCore.Authorization;
+using Library.DAL.EF;
+using Library.DAL.Abstractions;
 
 namespace LibraryMVC.Controllers
 {
     public class BooksController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IBookManager bookManager;
 
-        public BooksController(ApplicationDbContext context)
+        public BooksController(ApplicationDbContext context, IBookManager bookManager)
         {
             _context = context;
+            this.bookManager = bookManager;
         }
 
         // GET: Books
         public async Task<IActionResult> Index()
         {
-              return _context.Book != null ? 
-                          View(await _context.Book.ToListAsync()) :
+              return bookManager.GetList != null ? 
+                          View(bookManager.GetList()) :
                           Problem("Entity set 'ApplicationDbContext.Book'  is null.");
         }
 
         // GET: Books/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Book == null)
+            if (id == null || bookManager.GetList() == null)
             {
                 return NotFound();
             }
 
-            var book = await _context.Book
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var book = bookManager.Get(id);
+                
             if (book == null)
             {
                 return NotFound();
@@ -59,12 +63,11 @@ namespace LibraryMVC.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Author,Publisher,PublishYear,IsAvailable")] Book book)
+        public async Task<IActionResult> Create([Bind("Id,Title,Author,Publisher,PublishYear,IsAvailable")] Library.Entities.Book book)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(book);
-                await _context.SaveChangesAsync();
+                bookManager.Add(book);
                 return RedirectToAction(nameof(Index));
             }
             return View(book);
@@ -74,12 +77,12 @@ namespace LibraryMVC.Controllers
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Book == null)
+            if (id == null || bookManager.GetList() == null)
             {
                 return NotFound();
             }
 
-            var book = await _context.Book.FindAsync(id);
+            var book = bookManager.Get(id);
             if (book == null)
             {
                 return NotFound();
@@ -93,7 +96,7 @@ namespace LibraryMVC.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Author,Publisher,PublishYear,IsAvailable")] Book book)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Author,Publisher,PublishYear,IsAvailable")] Library.Entities.Book book)
         {
             if (id != book.Id)
             {
@@ -104,8 +107,7 @@ namespace LibraryMVC.Controllers
             {
                 try
                 {
-                    _context.Update(book);
-                    await _context.SaveChangesAsync();
+                    bookManager.Update(book);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -127,13 +129,12 @@ namespace LibraryMVC.Controllers
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Book == null)
+            if (id == null || bookManager.GetList() == null)
             {
                 return NotFound();
             }
 
-            var book = await _context.Book
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var book = bookManager.Get(id);
             if (book == null)
             {
                 return NotFound();
@@ -148,23 +149,23 @@ namespace LibraryMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Book == null)
+            if (bookManager.GetList() == null)
             {
                 return Problem("Entity set 'ApplicationDbContext.Book'  is null.");
             }
-            var book = await _context.Book.FindAsync(id);
+            var book = bookManager.Get(id);
             if (book != null)
             {
-                _context.Book.Remove(book);
+                bookManager.Delete(book);
             }
-            
-            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
         private bool BookExists(int id)
         {
-          return (_context.Book?.Any(e => e.Id == id)).GetValueOrDefault();
+          return bookManager.Get(id) != null ? true : false;
+            //return (_context.Book?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

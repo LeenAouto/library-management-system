@@ -9,6 +9,6 @@
         public int? PublishYear { get; set; }
         public bool IsAvailable { get; set; }
 
-        public List<Reservation> reservations { get; set; }
+        public List<Reservation>? reservations { get; set; }
     }
 }

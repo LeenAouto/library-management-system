@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WMf2MFsxf5ZOYdhqdzu/bLLluy0kezm4rSar13h5DE2lAlJpS1JkQJuXgVG+7HY7ZnXKUavpmM5K8+gbNdE37Q==",
+  "dgSpecHash": "F2v8Dm8SCDCbfvhJTeXsLW9HXbRet91aHiOv1OMOdMlhNTrY69GfGTamC3kK2NzFcKvkTT8SeQ81k/9FeS4AHg==",
   "success": true,
-  "projectFilePath": "D:\\Program Files\\source\\repos\\LibraryConsole\\LibraryConsole\\Library.ConsoleUI.csproj",
+  "projectFilePath": "D:\\Program Files\\source\\repos\\library-management-system\\LibraryConsole\\Library.ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leen_\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\leen_\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
